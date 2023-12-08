@@ -4,6 +4,8 @@
 **Shadowgrams** is an innovative project that leverages freely available software to create standardized and repeatable shadowgrams. This method utilizes advanced illuminant and camera simulations within the app to provide plastic surgeons with a reliable tool for preoperative planning and postoperative evaluation.
 
 Shadowgrams are a way of visualizing topographic projection intuitively that allows for repeatable evaluation.
+![Shadow](https://github.com/JonathanButts/shadowgram/assets/152933119/cea9e52f-1d24-49b4-955a-2b31c76feba0)
+
 
 ## Features
 - **Standardized Shadowgrams**: Consistent and repeatable shadowgrams for accurate assessments.
@@ -16,7 +18,9 @@ Shadowgrams are a way of visualizing topographic projection intuitively that all
 - **3D scanner**: A clinical 3D scanner may be used for this protocol
 - **iPhone X or later with FaceID**
 - **ScandyPro App**: Recommended for obtaining high-quality facial scans.
+
 - **Blender**
+
     - Minimum Recommended Requirements:
       - 64-bit dual core 2Ghz CPU with SSE2 support
       - 4 GB RAM
@@ -28,6 +32,7 @@ Shadowgrams are a way of visualizing topographic projection intuitively that all
 ## Links
 - [Scandy](https://www.scandy.co/apps/scandy-pro)
 - [Blender](https://www.blender.org/download/)
+- [Fiji](https://imagej.net/software/fiji/downloads)
 
 ## Saving Scans
 - **File Format**: Save the facial scans as `.ply` files to retain vertex and color information when uploading to Blender[^5^][7].
