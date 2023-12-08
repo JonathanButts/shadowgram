@@ -1,7 +1,9 @@
 # Shadowgrams
 
 ## Overview
-**Shadowgrams** is an innovative project that leverages **3D facial scans** and **Blender** to create standardized and repeatable shadowgrams. This method utilizes advanced illuminant and camera simulations within the app to provide plastic surgeons with a reliable tool for preoperative planning and postoperative evaluation.
+**Shadowgrams** is an innovative project that leverages freely available software to create standardized and repeatable shadowgrams. This method utilizes advanced illuminant and camera simulations within the app to provide plastic surgeons with a reliable tool for preoperative planning and postoperative evaluation.
+
+SHadowgrams are a way of visualizing topographic projection intuitively that allows for repeatable evaluation.
 
 ## Features
 - **Standardized Shadowgrams**: Consistent and repeatable shadowgrams for accurate assessments.
@@ -11,19 +13,34 @@
 - **Preoperative and Postoperative Evaluation**: Ideal for assessing changes and planning surgeries.
 
 ## Requirements
-- **iPhone with FaceID**: The protocol requires an iPhone with a front-facing FaceID scanner. Compatible models include:
-  - iPhone X or later
-- **ScandyPro App**: Recommended for obtaining high-quality facial scans[^3^][9][^4^][10].
-- **Scan Positioning**: Ensure scans are centered on the nose to prevent arc drift and maintain feature accuracy.
+- **3D scanner**: A clinical 3D scanner may be used for this protocol
+- **iPhone X or later with FaceID**
+- **ScandyPro App**: Recommended for obtaining high-quality facial scans.
+- **Blender**
+    - Minimum Recommended Requirements:
+      - 64-bit dual core 2Ghz CPU with SSE2 support
+      - 4 GB RAM
+      - 1280×768 display
+      - Mouse, trackpad or pen+tablet
+      - Graphics card with 1 GB RAM, OpenGL 3.3
+- **Fiji**: Or other photo editor capable of measuring image ROI
+
+## Links
+- [Scandy](https://www.scandy.co/apps/scandy-pro)
+- [Blender](https://www.blender.org/download/)
 
 ## Saving Scans
 - **File Format**: Save the facial scans as `.ply` files to retain vertex and color information when uploading to Blender[^5^][7].
 
-## Getting Started
+## Getting a Scan
 1. Ensure you have a compatible iPhone model with the ScandyPro app installed.
-2. Follow the protocol to capture a facial scan, centering on the nose.
-3. Save the scan as a `.ply` file.
+2. Follow the protocol to capture a facial scan: start with the scanner centered on the nose. Then, slowly expand the scan in a circular manner, trying to stay within a 20 degree arc from midline.
+3. Save the scan as a `.ply` file with measurement set to mm.
 4. Import the `.ply` file into Blender for simulation and analysis.
+
+## Creating the Shadowgram
+1. Import
+2. 
 
 ## Usage
 Shadowgrams can be used to quickly assess facial asymmetries, such as nasal asymmetry, offering a superior alternative to anthropometrics and photogrammetry. The detailed process and best practices are outlined in the included documentation.
